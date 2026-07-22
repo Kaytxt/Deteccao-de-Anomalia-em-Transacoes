@@ -3,7 +3,6 @@
 Projeto desenvolvido para o Bootcamp da **DIO** unindo **Ciência de Dados**, **Cibersegurança** e **Inteligência Artificial Generativa**.
 
 O objetivo desta solução é identificar transações fraudulentas/atípicas utilizando modelos de Aprendizado de Máquina Não-Supervisionado e gerar prompts explicativos (*Explainable AI*) para triagem automatizada em equipes de SOC (Security Operations Center).
-
 ---
 
 ## 📁 Estrutura do Projeto
@@ -23,11 +22,9 @@ DETECÇÃO-DE-ANOMALIA-EM-TRANSAÇÕES/
 ├── .gitattributes
 ├── main.py                   # Script principal de execução do pipeline
 └── README.md                 # Documentação do repositório
-
 ```
 
 ---
-
 ## ⚡ Fluxo da Solução
 
 1. **Análise Exploratória (EDA):** Verificação de integridade e levantamento da taxa de desbalanceamento (apenas 0.17% de anomalias).
@@ -46,17 +43,13 @@ DETECÇÃO-DE-ANOMALIA-EM-TRANSAÇÕES/
 * Bibliotecas: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`
 
 ### Instalação das dependências
-
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
-
 ```
 
 ### Executando o pipeline
-
 ```bash
 python main.py
-
 ```
 
 ---
@@ -69,4 +62,4 @@ python main.py
 * **Machine Learning:** Scikit-Learn (`IsolationForest`, `StandardScaler`)
 * **GenAI / XAI Concept:** Prompts Estruturados para Agentes de Segurança
 
-```
+---
